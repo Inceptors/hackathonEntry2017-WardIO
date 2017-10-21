@@ -36,8 +36,28 @@ a.navbar-brand {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: rgba(119, 119, 119, 0.2)
 }
 
 .ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
     stroke: rgb(39, 209, 70);
+}
+
+#heartbeat {
+    background-color: rgb(39, 209, 70);
+    height: 250px;
+    width: 250px;
+    border-radius: 145px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 193px;
+    text-align: center;
+}
+
+#brandName {
+  color: rgb(39, 209, 70);
+  font-weight: bold;
+  font-size: 72px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
 }

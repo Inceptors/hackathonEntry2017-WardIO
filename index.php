@@ -12,6 +12,12 @@
 
     <?php include './partials/nav.php'; ?>
 
+    <div id="heartbeat">
+      <i class="fa fa-fw fa-heartbeat"></i>
+    </div>
+
+    <h1 id="brandName">WardIO</h1>
+
     <!-- Imports jQuery API -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 

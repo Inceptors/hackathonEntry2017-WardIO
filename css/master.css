@@ -1,0 +1,17 @@
+/*
+ *
+ * Bootstrap overrides
+ *
+ */
+
+.navbar-inverse {
+  border-radius: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.h1, h1 {
+  font-size: 24px;
+}

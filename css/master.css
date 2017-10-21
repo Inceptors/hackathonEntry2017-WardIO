@@ -21,7 +21,7 @@ a.navbar-brand {
 }
 
 .navbar-inverse .navbar-brand {
-  color: white;
+  color: rgb(39, 209, 70);
 }
 
 .well {
@@ -36,4 +36,8 @@ a.navbar-brand {
 
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+    stroke: rgb(39, 209, 70);
 }

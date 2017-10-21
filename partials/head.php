@@ -10,9 +10,6 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
-<!-- Custom stylesheets -->
-<link rel="stylesheet" href="./css/master.css">
-
 <!-- Imports Google Fonts API -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
 
@@ -20,3 +17,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+
+<!-- Custom stylesheets -->
+<link rel="stylesheet" href="./css/master.css">

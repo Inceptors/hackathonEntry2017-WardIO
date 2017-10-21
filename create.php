@@ -23,7 +23,7 @@
             <label for="password">Confirm Password</label>
             <input class="form-control" type="password" name="confirmPassword" value="">
             <br>
-            <button class="btn btn-primary form-control"type="submit" name="login">Create Account</button>
+            <button class="btn btn-primary form-control"type="submit" name="login"><i class="fa fa-fw fa-user-plus"></i> Create Account</button>
           </form>
         </div>
       </div>

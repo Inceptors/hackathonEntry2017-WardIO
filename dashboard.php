@@ -25,7 +25,38 @@ if (!isset($_SESSION['username'])) {
     <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center">
-          <h1>Dashboard</h1>
+          <h1>Pulse Rate</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="ct-chart1 ct-perfect-fourth"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h1>Temperature</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="ct-chart2 ct-perfect-fourth"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h1>Vibrations</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="ct-chart3 ct-perfect-fourth"></div>
         </div>
       </div>
     </div>
@@ -35,6 +66,21 @@ if (!isset($_SESSION['username'])) {
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/master.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $.post("./fetch.php",
+        function(data) {
+          var payload = data;
+          console.log(payload);
+        })
+      });
+    </script>
 
   </body>
 </html>

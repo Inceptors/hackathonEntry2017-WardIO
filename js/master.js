@@ -1,3 +1,11 @@
+$(document).ready(function() {
+  $.post("./fetch.php",
+  function(data) {
+    var payload = data;
+    console.log(payload);
+  })
+});
+
 // Our labels and three data series
 var data1 = {
   labels: [],

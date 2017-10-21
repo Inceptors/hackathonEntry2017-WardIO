@@ -24,6 +24,10 @@ a.navbar-brand {
   color: white;
 }
 
+.well {
+  border-radius: 0;
+}
+
 /*
  *
  * Custom stylesheets

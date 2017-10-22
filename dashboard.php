@@ -155,7 +155,7 @@ if (!isset($_SESSION['username'])) {
             new Chartist.Line('.ct-chart3', vibrations, options);
 
           })
-        }, 10000);
+        }, 1000);
       });
 
     </script>

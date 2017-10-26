@@ -1,4 +1,4 @@
-# Inteliqas Web Dashboard
+# Web Dashboard
 
 ## Getting Started
 
